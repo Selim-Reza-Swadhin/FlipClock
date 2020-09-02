@@ -1,0 +1,26 @@
+<html>
+<head>
+    <link rel="stylesheet" href="../compiled/flipclock.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="../compiled/jquery-3.5.1.min.js"></script>
+    <script src="../compiled/flipclock.js"></script>
+</head>
+<body>
+<div class="clock" style="margin:2em;"></div>
+
+<script type="text/javascript">
+    let clock;
+
+    $(document).ready(function () {
+        //let date = new Date('2014-01-01 05:02:12 pm');
+        let date = new Date('2020-10-12 12:02:12 pm');
+
+        clock = $('.clock').FlipClock(date, {
+            clockFace: 'TwentyFourHourClock'
+        });
+    });
+</script>
+
+</body>
+</html>

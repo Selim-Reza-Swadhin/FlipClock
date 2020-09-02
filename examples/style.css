@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    //background: #222;
+    background: url('nature-2.jpg') no-repeat fixed center;
+    background-size: cover;
+
+}
+.clock{
+    width: auto;
+}
+.flip-clock-dot{
+    background: #ccc;
+}
+.flip-clock-meridium a{
+    color: #ccc;
+}
